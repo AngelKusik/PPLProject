@@ -1,0 +1,145 @@
+/*** MAIN STYLES ***/
+h1, .h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 5rem;
+    font-weight: 900;
+    text-align: center;
+    color: #164739; 
+}
+
+h2 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+}
+
+/******** NAVBAR SECTION *******/
+.navbar-logo {
+    width: 200px;
+}
+
+.dropdown-test {
+    width: 100px;
+    height: 100px;
+    border: #266352 2px solid;
+
+}
+
+/******* MODALS ********/
+.cross {
+    padding: 10px;
+    color: #252F2C;
+    cursor: pointer
+}
+
+.modal-heading {
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+    color: #252F2C;
+
+}
+
+.help-img {
+    max-width: 25%;
+    display: inline-block;
+}
+
+/******** VIDEO SECTION *******/
+video {
+    width: 100%;
+    height: auto;
+}
+
+#video-section {
+    background: url('imgs/brick-wall.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 1%;
+}
+
+/******** BUTTONS SECTION *******/
+
+#buttons-section {
+    background-color: #A2B3AE; 
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.button {
+    background-color: #266352; 
+    color: #FFFF;
+    text-align: left;
+}
+
+.button:hover, input:hover, label:hover {
+    cursor: pointer;
+}
+
+.btn-white:checked, .btn-white:active {
+    background-color: #252F2C !important;
+    border-color: #FFFF !important;
+}
+
+.dark-heading {
+    color: #252F2C;
+    font-weight: 600;
+}
+
+.completed {
+    background-color: #FFB200;
+    color: #252F2C;
+    box-shadow: 0 5px 7px 0 #252F2C;
+}
+
+.completed-status {
+    font-family: 'Bree Serif', serif;    
+}
+
+.disabled-effect {
+    box-shadow: 0 5px 7px 0 #252F2C;
+    opacity: 0.4;
+    cursor: default;
+}
+
+/******* SUPPORTING TEXT AREA ********/
+#supporting-text-section {
+    background-color: #266352; 
+    color: #fff;
+    text-align: center;
+    padding-top: 2%;
+    
+}
+
+.white-border {
+    border-top: #FFFF 2px solid;
+    border-bottom: #FFFF 2px solid;
+}
+
+@media (min-width: 1200px ){
+    .large-font {
+        font-size: x-large;
+    }
+}
+
+
+/******* FOOTER ********/
+#main-footer {
+    background: #252F2C;
+    color: #fff;
+    border-top: #FFFF 2px solid;
+}
+
+.dc-font {
+    font-family: 'Oswald', sans-serif;
+    color: #FFFF; 
+}
+
